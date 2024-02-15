@@ -1,0 +1,60 @@
+### Starting build.
+# Target: vocab.ml.depends, tags: { debug, extension:ml, file:vocab.ml, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules vocab.ml > vocab.ml.depends # cached
+# Target: vocab.mli.depends, tags: { debug, extension:mli, file:vocab.mli, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules vocab.mli > vocab.mli.depends # cached
+# Target: treeSet.mli.depends, tags: { debug, extension:mli, file:treeSet.mli, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules treeSet.mli > treeSet.mli.depends # cached
+# Target: setInterface.mli.depends, tags: { debug, extension:mli, file:setInterface.mli, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules setInterface.mli > setInterface.mli.depends # cached
+# Target: setInterface.cmi, tags: { byte, compile, debug, extension:mli, file:setInterface.mli, interf, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o setInterface.cmi setInterface.mli # cached
+# Target: treeSet.cmi, tags: { byte, compile, debug, extension:mli, file:treeSet.mli, interf, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o treeSet.cmi treeSet.mli # cached
+# Target: vocab.cmi, tags: { byte, compile, debug, extension:mli, file:vocab.mli, interf, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o vocab.cmi vocab.mli # cached
+# Target: assert.ml.depends, tags: { debug, extension:ml, file:assert.ml, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules assert.ml > assert.ml.depends # cached
+# Target: assert.mli.depends, tags: { debug, extension:mli, file:assert.mli, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules assert.mli > assert.mli.depends # cached
+# Target: assert.cmi, tags: { byte, compile, debug, extension:mli, file:assert.mli, interf, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o assert.cmi assert.mli # cached
+# Target: assert.cmx, tags: { compile, debug, extension:cmx, extension:ml, file:assert.cmx, file:assert.ml, implem, native, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlopt.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o assert.cmx assert.ml # cached
+# Target: books.ml.depends, tags: { debug, extension:ml, file:books.ml, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules books.ml > books.ml.depends # cached
+# Target: books.mli.depends, tags: { debug, extension:mli, file:books.mli, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules books.mli > books.mli.depends # cached
+# Target: books.cmi, tags: { byte, compile, debug, extension:mli, file:books.mli, interf, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o books.cmi books.mli # cached
+# Target: books.cmx, tags: { compile, debug, extension:cmx, extension:ml, file:books.cmx, file:books.ml, implem, native, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlopt.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o books.cmx books.ml # cached
+# Target: higherOrder.ml.depends, tags: { debug, extension:ml, file:higherOrder.ml, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules higherOrder.ml > higherOrder.ml.depends # cached
+# Target: higherOrder.mli.depends, tags: { debug, extension:mli, file:higherOrder.mli, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules higherOrder.mli > higherOrder.mli.depends # cached
+# Target: higherOrder.cmi, tags: { byte, compile, debug, extension:mli, file:higherOrder.mli, interf, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o higherOrder.cmi higherOrder.mli # cached
+# Target: higherOrder.cmx, tags: { compile, debug, extension:cmx, extension:ml, file:higherOrder.cmx, file:higherOrder.ml, implem, native, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlopt.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o higherOrder.cmx higherOrder.ml # cached
+# Target: treeSet.ml.depends, tags: { debug, extension:ml, file:treeSet.ml, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules treeSet.ml > treeSet.ml.depends # cached
+# Target: setInterface.ml.depends, tags: { debug, extension:ml, file:setInterface.ml, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules setInterface.ml > setInterface.ml.depends # cached
+# Target: setInterface.cmx, tags: { compile, debug, extension:cmx, extension:ml, file:setInterface.cmx, file:setInterface.ml, implem, native, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlopt.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o setInterface.cmx setInterface.ml # cached
+# Target: tree.ml.depends, tags: { debug, extension:ml, file:tree.ml, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules tree.ml > tree.ml.depends # cached
+# Target: tree.mli.depends, tags: { debug, extension:mli, file:tree.mli, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules tree.mli > tree.mli.depends # cached
+# Target: tree.cmi, tags: { byte, compile, debug, extension:mli, file:tree.mli, interf, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o tree.cmi tree.mli # cached
+# Target: tree.cmx, tags: { compile, debug, extension:cmx, extension:ml, file:tree.cmx, file:tree.ml, implem, native, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlopt.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o tree.cmx tree.ml # cached
+# Target: treeSet.cmx, tags: { compile, debug, extension:cmx, extension:ml, file:treeSet.cmx, file:treeSet.ml, implem, native, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlopt.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o treeSet.cmx treeSet.ml # cached
+# Target: vocab.cmx, tags: { compile, debug, extension:cmx, extension:ml, file:vocab.cmx, file:vocab.ml, implem, native, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlopt.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o vocab.cmx vocab.ml # cached
+# Target: vocab.native, tags: { debug, dont_link_with, extension:native, file:vocab.native, link, native, ocaml, program, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlopt.opt -I /home/codio/.opam/4.12.0/lib/ocaml /home/codio/.opam/4.12.0/lib/ocaml/unix.cmxa -g assert.cmx books.cmx higherOrder.cmx setInterface.cmx tree.cmx treeSet.cmx vocab.cmx -o vocab.native # cached
+# Compilation successful.
