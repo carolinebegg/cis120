@@ -1,0 +1,20 @@
+### Starting build.
+# Target: intro.ml.depends, tags: { debug, extension:ml, file:intro.ml, ocaml, ocamldep, quiet }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules intro.ml > intro.ml.depends
+# Target: intro.mli.depends, tags: { debug, extension:mli, file:intro.mli, ocaml, ocamldep, quiet }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules intro.mli > intro.mli.depends # cached
+# Target: intro.cmi, tags: { byte, compile, debug, extension:mli, file:intro.mli, interf, ocaml, quiet }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o intro.cmi intro.mli # cached
+# Target: assert.ml.depends, tags: { debug, extension:ml, file:assert.ml, ocaml, ocamldep, quiet }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules assert.ml > assert.ml.depends # cached
+# Target: assert.mli.depends, tags: { debug, extension:mli, file:assert.mli, ocaml, ocamldep, quiet }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules assert.mli > assert.mli.depends # cached
+# Target: assert.cmi, tags: { byte, compile, debug, extension:mli, file:assert.mli, interf, ocaml, quiet }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o assert.cmi assert.mli # cached
+# Target: assert.cmx, tags: { compile, debug, extension:cmx, extension:ml, file:assert.cmx, file:assert.ml, implem, native, ocaml, quiet }
+/home/codio/.opam/4.12.0/bin/ocamlopt.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o assert.cmx assert.ml # cached
+# Target: intro.cmx, tags: { compile, debug, extension:cmx, extension:ml, file:intro.cmx, file:intro.ml, implem, native, ocaml, quiet }
+/home/codio/.opam/4.12.0/bin/ocamlopt.opt -c -I /home/codio/.opam/4.12.0/lib/ocaml -g -o intro.cmx intro.ml
+# Target: intro.native, tags: { debug, dont_link_with, extension:native, file:intro.native, link, native, ocaml, program, quiet }
+/home/codio/.opam/4.12.0/bin/ocamlopt.opt -I /home/codio/.opam/4.12.0/lib/ocaml /home/codio/.opam/4.12.0/lib/ocaml/unix.cmxa -g assert.cmx intro.cmx -o intro.native
+# Compilation successful.
